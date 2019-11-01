@@ -4634,6 +4634,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.25" y1="1.335" x2="1.25" y2="1.135" width="0.2" layer="21" curve="-180"/>
 <rectangle x1="0.889" y1="0" x2="1.4605" y2="1.397" layer="21"/>
 </package>
+<package name="10129383906001ALF">
+<description>&lt;b&gt;10129383-906001ALF-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="A1" x="-2.54" y="-2.73" dx="3.18" dy="1.27" layer="1" rot="R90"/>
+<smd name="A2" x="0" y="-2.73" dx="3.18" dy="1.27" layer="1" rot="R90"/>
+<smd name="A3" x="2.54" y="-2.73" dx="3.18" dy="1.27" layer="1" rot="R90"/>
+<smd name="B1" x="-2.54" y="2.73" dx="3.18" dy="1.27" layer="1" rot="R90"/>
+<smd name="B2" x="0" y="2.73" dx="3.18" dy="1.27" layer="1" rot="R90"/>
+<smd name="B3" x="2.54" y="2.73" dx="3.18" dy="1.27" layer="1" rot="R90"/>
+<text x="-0.195" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.195" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.81" y1="2.415" x2="3.81" y2="2.415" width="0.2" layer="51"/>
+<wire x1="3.81" y1="2.415" x2="3.81" y2="-2.415" width="0.2" layer="51"/>
+<wire x1="3.81" y1="-2.415" x2="-3.81" y2="-2.415" width="0.2" layer="51"/>
+<wire x1="-3.81" y1="-2.415" x2="-3.81" y2="2.415" width="0.2" layer="51"/>
+<wire x1="-5.2" y1="5.32" x2="4.81" y2="5.32" width="0.1" layer="51"/>
+<wire x1="4.81" y1="5.32" x2="4.81" y2="-5.32" width="0.1" layer="51"/>
+<wire x1="4.81" y1="-5.32" x2="-5.2" y2="-5.32" width="0.1" layer="51"/>
+<wire x1="-5.2" y1="-5.32" x2="-5.2" y2="5.32" width="0.1" layer="51"/>
+<wire x1="-3.81" y1="2.415" x2="-3.81" y2="-2.4" width="0.1" layer="21"/>
+<wire x1="-4.2" y1="-3.4" x2="-4.2" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-4.2" y1="-3.4" x2="-4" y2="-3.4" width="0.2" layer="21" curve="180"/>
+<wire x1="-4" y1="-3.4" x2="-4" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-4" y1="-3.4" x2="-4.2" y2="-3.4" width="0.2" layer="21" curve="180"/>
+<wire x1="3.8" y1="2.415" x2="3.81" y2="-2.415" width="0.1" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LMV611MGX_NOPB">
@@ -4724,6 +4750,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.889" y1="-3.2004" x2="0.8382" y2="-2.921" width="0.254" layer="94"/>
 <wire x1="0.8382" y1="-2.921" x2="0.508" y2="-2.9972" width="0.254" layer="94"/>
 <text x="-2.54" y="-7.62" size="1.27" layer="94">B</text>
+</symbol>
+<symbol name="10129383-906001ALF">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="A1" x="0" y="0" length="middle"/>
+<pin name="A3" x="0" y="-2.54" length="middle"/>
+<pin name="B2" x="0" y="-5.08" length="middle"/>
+<pin name="A2" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="B1" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="B3" x="22.86" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4833,6 +4873,35 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MSL0402RGBU1.
 <attribute name="MANUFACTURER_PART_NUMBER" value="MSL0402RGBU1" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="755-MSL0402RGBU1" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=755-MSL0402RGBU1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10129383-906001ALF" prefix="J">
+<description>&lt;b&gt;Headers &amp; Wire Housings ECONOSTIK HEADER DR VT SMT 2X3&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/10129383-906001ALF.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="10129383-906001ALF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10129383906001ALF">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings ECONOSTIK HEADER DR VT SMT 2X3" constant="no"/>
+<attribute name="HEIGHT" value="8.58mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="10129383-906001ALF" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="649-1012938390601ALF" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=649-1012938390601ALF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9470,6 +9539,234 @@ Source: Comchip CGRM4001-G.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Microcontroller">
+<description>&lt;h3&gt;SparkFun Microcontrollers&lt;/h3&gt;
+This library contains microcontrollers.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="ATTINY85">
+<circle x="-3.429" y="3.048" radius="0.127" width="0.254" layer="21"/>
+<wire x1="3.048" y1="2.54" x2="-3.048" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="-2.54" x2="3.048" y2="-2.54" width="0.2032" layer="21"/>
+<smd name="1" x="-3.683" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R270"/>
+<smd name="2" x="-3.683" y="0.635" dx="0.762" dy="1.524" layer="1" rot="R270"/>
+<smd name="3" x="-3.683" y="-0.635" dx="0.762" dy="1.524" layer="1" rot="R270"/>
+<smd name="4" x="-3.683" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R270"/>
+<smd name="5" x="3.727" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="6" x="3.727" y="-0.635" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="7" x="3.727" y="0.635" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="8" x="3.727" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<text x="-2.921" y="2.794" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.175" y="-4.064" size="1.27" layer="25" font="vector">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ATTINY85_ATTINY85">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="PB1" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="PB0" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="PB3" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="PB4" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="PB5" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="PB2" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="GND" x="-10.16" y="-7.62" length="short"/>
+<pin name="VCC" x="-10.16" y="5.08" length="short"/>
+<text x="-7.62" y="-12.7" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-7.62" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATTINY85" prefix="U">
+<gates>
+<gate name="U1" symbol="ATTINY85_ATTINY85" x="-10.16" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="ATTINY85">
+<connects>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="PB0" pad="5"/>
+<connect gate="U1" pin="PB1" pad="6"/>
+<connect gate="U1" pin="PB2" pad="7"/>
+<connect gate="U1" pin="PB3" pad="2"/>
+<connect gate="U1" pin="PB4" pad="3"/>
+<connect gate="U1" pin="PB5" pad="1"/>
+<connect gate="U1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-09092" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="pinhead" urn="urn:adsk.eagle:library:325">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X04" urn="urn:adsk.eagle:footprint:22258/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
+<package name="1X04/90" urn="urn:adsk.eagle:footprint:22259/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.715" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-4.445" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
+<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X04" urn="urn:adsk.eagle:package:22407/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X04"/>
+</packageinstances>
+</package3d>
+<package3d name="1X04/90" urn="urn:adsk.eagle:package:22404/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X04/90"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PINHD4" urn="urn:adsk.eagle:symbol:22257/1" library_version="4">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="-6.35" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="4" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X4" urn="urn:adsk.eagle:component:22499/5" prefix="JP" uservalue="yes" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X04">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22407/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="91" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/90" package="1X04/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22404/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CNAME" value="Forever Blinker"/>
@@ -9481,6 +9778,11 @@ Source: Comchip CGRM4001-G.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
+<groups>
+<schematic_group name="POWER_BOOST"/>
+<schematic_group name="AT-TINY_DNI"/>
+<schematic_group name="OPAMP_BLINK"/>
+</groups>
 <parts>
 <part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-AA"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9520,23 +9822,49 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="DNI"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1"/>
+<part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATTINY85" device=""/>
+<part name="J1" library="SamacSys_Parts" deviceset="10129383-906001ALF" device=""/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2.2M"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="DNI"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="DNI"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="DNI"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0603K" value="10u">
+<attribute name="PARTNO" value="GRM188R61A106KE69J"/>
+</part>
+<part name="C5" library="resistor" deviceset="C-EU" device="C0603K" value="10u">
+<attribute name="PARTNO" value="GRM188R61A106KE69J"/>
+</part>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="170.18" y="99.06" size="1.778" layer="97" grouprefs="OPAMP_BLINK">LMV611 has Iq 200uA 
+
+MCP6241UT-E/LT has Iq 50uA - better</text>
 </plain>
 <instances>
-<instance part="BT1" gate="G$1" x="38.1" y="60.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.418" y="60.96" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="33.782" y="60.96" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="BT1" gate="G$1" x="22.86" y="40.64" smashed="yes" rot="R270" grouprefs="POWER_BOOST">
+<attribute name="NAME" x="27.178" y="40.64" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="18.542" y="40.64" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="GND1" gate="1" x="38.1" y="48.26" smashed="yes">
-<attribute name="VALUE" x="35.56" y="45.72" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="22.86" y="27.94" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="VALUE" x="20.32" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="48.26" y="78.74" smashed="yes">
-<attribute name="PARTNO" x="48.26" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="49.784" y="79.121" size="1.778" layer="95"/>
-<attribute name="VALUE" x="49.784" y="74.041" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="33.02" y="58.42" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="PARTNO" x="33.02" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="34.544" y="58.801" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.544" y="53.721" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="181.61" y="11.43" size="2.54" layer="94" font="vector"/>
@@ -9546,108 +9874,178 @@ Source: Comchip CGRM4001-G.pdf</description>
 <attribute name="DESIGNER" x="226.26" y="6.35" size="2.54" layer="94" font="vector"/>
 <attribute name="CREVISION" x="234.92" y="1.17" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="IC1" gate="G$1" x="180.34" y="104.14" smashed="yes">
-<attribute name="NAME" x="186.69" y="111.76" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="181.61" y="109.22" size="1.778" layer="96" align="center-left"/>
+<instance part="IC1" gate="G$1" x="170.18" y="68.58" smashed="yes" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="176.53" y="76.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="171.45" y="73.66" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="PS1" gate="G$1" x="96.52" y="86.36" smashed="yes">
-<attribute name="NAME" x="92.71" y="96.52" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="85.09" y="73.66" size="1.778" layer="96" align="center-left"/>
+<instance part="PS1" gate="G$1" x="81.28" y="66.04" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="NAME" x="77.47" y="76.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="69.85" y="53.34" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND2" gate="1" x="76.2" y="73.66" smashed="yes">
-<attribute name="VALUE" x="73.66" y="71.12" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="60.96" y="53.34" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="VALUE" x="58.42" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="48.26" y="71.12" smashed="yes">
-<attribute name="VALUE" x="45.72" y="68.58" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="33.02" y="50.8" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="VALUE" x="30.48" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="127" y="86.36" smashed="yes">
-<attribute name="PARTNO" x="127" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="128.524" y="86.741" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.524" y="81.661" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="111.76" y="66.04" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="PARTNO" x="111.76" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="113.284" y="66.421" size="1.778" layer="95"/>
+<attribute name="VALUE" x="113.284" y="61.341" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="127" y="78.74" smashed="yes">
-<attribute name="VALUE" x="124.46" y="76.2" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="111.76" y="58.42" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="VALUE" x="109.22" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="53.34" y="91.44" smashed="yes">
-<attribute name="NAME" x="69.85" y="97.79" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="69.85" y="95.25" size="1.778" layer="96" align="center-left"/>
+<instance part="L1" gate="G$1" x="38.1" y="71.12" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="NAME" x="54.61" y="77.47" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="54.61" y="74.93" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="116.84" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="115.3414" y="80.01" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="120.142" y="80.01" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="101.6" y="63.5" smashed="yes" rot="R90" grouprefs="POWER_BOOST">
+<attribute name="NAME" x="100.1014" y="59.69" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.902" y="59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="116.84" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="115.3414" y="64.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="120.142" y="64.77" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="101.6" y="48.26" smashed="yes" rot="R90" grouprefs="POWER_BOOST">
+<attribute name="NAME" x="100.1014" y="44.45" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.902" y="44.45" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND5" gate="1" x="116.84" y="60.96" smashed="yes">
-<attribute name="VALUE" x="114.3" y="58.42" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="101.6" y="40.64" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="VALUE" x="99.06" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="116.84" y="101.6" smashed="yes">
-<attribute name="VALUE" x="114.3" y="96.52" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V1" gate="G$1" x="101.6" y="81.28" smashed="yes" grouprefs="POWER_BOOST">
+<attribute name="VALUE" x="99.06" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="208.28" y="116.84" smashed="yes">
-<attribute name="VALUE" x="205.74" y="111.76" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V2" gate="G$1" x="198.12" y="81.28" smashed="yes" grouprefs="OPAMP_BLINK">
+<attribute name="VALUE" x="195.58" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND6" gate="1" x="172.72" y="96.52" smashed="yes">
-<attribute name="VALUE" x="170.18" y="93.98" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="162.56" y="60.96" smashed="yes" grouprefs="OPAMP_BLINK">
+<attribute name="VALUE" x="160.02" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="190.5" y="124.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="194.31" y="122.9614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="194.31" y="127.762" size="1.778" layer="96" rot="R180"/>
+<instance part="R3" gate="G$1" x="180.34" y="88.9" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="184.15" y="87.4014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="184.15" y="92.202" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R4" gate="G$1" x="198.12" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="201.93" y="87.4014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="201.93" y="92.202" size="1.778" layer="96" rot="R180"/>
+<instance part="R4" gate="G$1" x="187.96" y="53.34" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="191.77" y="51.8414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="191.77" y="56.642" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C3" gate="G$1" x="177.8" y="76.2" smashed="yes">
-<attribute name="PARTNO" x="177.8" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="179.324" y="76.581" size="1.778" layer="95"/>
-<attribute name="VALUE" x="179.324" y="71.501" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="167.64" y="40.64" smashed="yes" grouprefs="OPAMP_BLINK">
+<attribute name="PARTNO" x="167.64" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="169.164" y="41.021" size="1.778" layer="95"/>
+<attribute name="VALUE" x="169.164" y="35.941" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="177.8" y="68.58" smashed="yes">
-<attribute name="VALUE" x="175.26" y="66.04" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="167.64" y="33.02" smashed="yes" grouprefs="OPAMP_BLINK">
+<attribute name="VALUE" x="165.1" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="198.12" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="201.93" y="79.7814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="201.93" y="84.582" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="187.96" y="45.72" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="191.77" y="44.2214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="191.77" y="49.022" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R6" gate="G$1" x="157.48" y="111.76" smashed="yes" rot="R270">
-<attribute name="NAME" x="158.9786" y="115.57" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="154.178" y="115.57" size="1.778" layer="96" rot="R270"/>
+<instance part="R6" gate="G$1" x="147.32" y="76.2" smashed="yes" rot="R270" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="148.8186" y="80.01" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="144.018" y="80.01" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R7" gate="G$1" x="157.48" y="96.52" smashed="yes" rot="R270">
-<attribute name="NAME" x="158.9786" y="100.33" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="154.178" y="100.33" size="1.778" layer="96" rot="R270"/>
+<instance part="R7" gate="G$1" x="147.32" y="60.96" smashed="yes" rot="R270" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="148.8186" y="64.77" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="144.018" y="64.77" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND8" gate="1" x="157.48" y="88.9" smashed="yes">
-<attribute name="VALUE" x="154.94" y="86.36" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="147.32" y="53.34" smashed="yes" grouprefs="OPAMP_BLINK">
+<attribute name="VALUE" x="144.78" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V3" gate="G$1" x="157.48" y="124.46" smashed="yes">
-<attribute name="VALUE" x="154.94" y="119.38" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V3" gate="G$1" x="147.32" y="88.9" smashed="yes" grouprefs="OPAMP_BLINK">
+<attribute name="VALUE" x="144.78" y="83.82" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED1" gate="G$1" x="233.68" y="93.98" smashed="yes">
-<attribute name="NAME" x="231.14" y="102.0826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="226.06" y="84.0486" size="1.778" layer="96"/>
+<instance part="LED1" gate="G$1" x="246.38" y="58.42" smashed="yes" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="243.84" y="66.5226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="228.6" y="48.4886" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="246.38" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="250.19" y="97.5614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="250.19" y="102.362" size="1.778" layer="96" rot="R180"/>
+<instance part="R8" gate="G$1" x="220.98" y="63.5" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="224.79" y="62.0014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="224.79" y="66.802" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R9" gate="G$1" x="254" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="257.81" y="92.4814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="257.81" y="97.282" size="1.778" layer="96" rot="R180"/>
+<instance part="R9" gate="G$1" x="228.6" y="58.42" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="232.41" y="56.9214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="61.722" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R10" gate="G$1" x="246.38" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="250.19" y="87.4014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="250.19" y="92.202" size="1.778" layer="96" rot="R180"/>
+<instance part="R10" gate="G$1" x="220.98" y="53.34" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="224.79" y="51.8414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="224.79" y="56.642" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND9" gate="1" x="261.62" y="81.28" smashed="yes">
-<attribute name="VALUE" x="259.08" y="78.74" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="251.46" y="45.72" smashed="yes" grouprefs="OPAMP_BLINK">
+<attribute name="VALUE" x="248.92" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="208.28" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="210.82" y="78.2574" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="218.44" y="75.9714" size="1.778" layer="96" rot="R180"/>
+<instance part="D1" gate="G$1" x="198.12" y="45.72" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="200.66" y="42.6974" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="208.28" y="40.4114" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="U1" gate="U1" x="40.64" y="149.86" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="VALUE" x="33.02" y="137.16" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="33.02" y="157.988" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J1" gate="G$1" x="76.2" y="160.02" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="NAME" x="82.55" y="167.64" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="77.47" y="165.1" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="+3V4" gate="G$1" x="111.76" y="165.1" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="VALUE" x="109.22" y="160.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND10" gate="1" x="111.76" y="152.4" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="VALUE" x="109.22" y="149.86" size="1.778" layer="96"/>
+</instance>
+<instance part="JP1" gate="A" x="63.5" y="124.46" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="NAME" x="57.15" y="132.715" size="1.778" layer="95"/>
+<attribute name="VALUE" x="57.15" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="53.34" y="137.16" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="VALUE" x="50.8" y="132.08" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND11" gate="1" x="53.34" y="116.84" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="VALUE" x="50.8" y="114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="GND12" gate="1" x="25.4" y="137.16" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="VALUE" x="22.86" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="25.4" y="170.18" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="VALUE" x="22.86" y="165.1" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R11" gate="G$1" x="40.64" y="162.56" smashed="yes" rot="R180" grouprefs="AT-TINY_DNI">
+<attribute name="NAME" x="44.45" y="161.0614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="44.45" y="165.862" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R12" gate="G$1" x="40.64" y="127" smashed="yes" rot="R180" grouprefs="AT-TINY_DNI">
+<attribute name="NAME" x="44.45" y="125.5014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="44.45" y="130.302" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R13" gate="G$1" x="27.94" y="124.46" smashed="yes" rot="R180" grouprefs="AT-TINY_DNI">
+<attribute name="NAME" x="31.75" y="122.9614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="31.75" y="127.762" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R14" gate="G$1" x="223.52" y="78.74" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="227.33" y="77.2414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="227.33" y="82.042" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R15" gate="G$1" x="223.52" y="93.98" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="227.33" y="92.4814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="227.33" y="97.282" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R16" gate="G$1" x="223.52" y="86.36" smashed="yes" rot="R180" grouprefs="OPAMP_BLINK">
+<attribute name="NAME" x="227.33" y="84.8614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="227.33" y="89.662" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C4" gate="G$1" x="25.4" y="149.86" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="PARTNO" x="25.4" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="26.924" y="150.241" size="1.778" layer="95"/>
+<attribute name="VALUE" x="26.924" y="145.161" size="1.778" layer="96"/>
+</instance>
+<instance part="C5" gate="G$1" x="73.66" y="127" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="PARTNO" x="73.66" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="75.184" y="127.381" size="1.778" layer="95"/>
+<attribute name="VALUE" x="75.184" y="122.301" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="73.66" y="119.38" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="VALUE" x="71.12" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V7" gate="G$1" x="73.66" y="132.08" smashed="yes" grouprefs="AT-TINY_DNI">
+<attribute name="VALUE" x="71.12" y="127" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9657,13 +10055,13 @@ Source: Comchip CGRM4001-G.pdf</description>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="BT1" gate="G$1" pin="-"/>
-<wire x1="38.1" y1="50.8" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="30.48" x2="22.86" y2="35.56" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="76.2" y1="76.2" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="55.88" x2="60.96" y2="58.42" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 <pinref part="PS1" gate="G$1" pin="GND"/>
-<wire x1="76.2" y1="78.74" x2="81.28" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -9679,9 +10077,9 @@ Source: Comchip CGRM4001-G.pdf</description>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="172.72" y1="99.06" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="63.5" x2="162.56" y2="66.04" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 <pinref part="IC1" gate="G$1" pin="V-"/>
-<wire x1="172.72" y1="101.6" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -9692,168 +10090,339 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="88.9" x2="261.62" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="261.62" y1="88.9" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="93.98" x2="261.62" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="93.98" x2="261.62" y2="88.9" width="0.1524" layer="91"/>
-<junction x="261.62" y="88.9"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="99.06" x2="261.62" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="99.06" x2="261.62" y2="93.98" width="0.1524" layer="91"/>
-<junction x="261.62" y="93.98"/>
+<wire x1="251.46" y1="63.5" x2="251.46" y2="58.42" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<pinref part="LED1" gate="G$1" pin="K_B"/>
+<wire x1="251.46" y1="58.42" x2="251.46" y2="53.34" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="251.46" y1="53.34" x2="251.46" y2="48.26" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="248.92" y1="53.34" x2="251.46" y2="53.34" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="251.46" y="53.34" grouprefs="OPAMP_BLINK"/>
+<pinref part="LED1" gate="G$1" pin="K_G"/>
+<wire x1="248.92" y1="58.42" x2="251.46" y2="58.42" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="251.46" y="58.42" grouprefs="OPAMP_BLINK"/>
+<pinref part="LED1" gate="G$1" pin="K_R"/>
+<wire x1="248.92" y1="63.5" x2="251.46" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="B3"/>
+<wire x1="99.06" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="53.34" y1="119.38" x2="53.34" y2="121.92" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="53.34" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="25.4" y1="139.7" x2="25.4" y2="142.24" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<pinref part="U1" gate="U1" pin="GND"/>
+<wire x1="25.4" y1="142.24" x2="30.48" y2="142.24" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="142.24" x2="25.4" y2="144.78" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<junction x="25.4" y="142.24" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="PS1" gate="G$1" pin="EN"/>
-<wire x1="81.28" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="83.82" x2="76.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<wire x1="60.96" y1="63.5" x2="60.96" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 <pinref part="PS1" gate="G$1" pin="VIN"/>
-<wire x1="76.2" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
-<junction x="76.2" y="86.36"/>
+<wire x1="60.96" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<wire x1="60.96" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<junction x="60.96" y="66.04" grouprefs="POWER_BOOST"/>
 <pinref part="BT1" gate="G$1" pin="+"/>
-<wire x1="48.26" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="86.36" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<wire x1="22.86" y1="66.04" x2="22.86" y2="45.72" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="81.28" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
-<junction x="48.26" y="86.36"/>
+<wire x1="33.02" y1="60.96" x2="33.02" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<junction x="33.02" y="66.04" grouprefs="POWER_BOOST"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="91.44" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="91.44" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<wire x1="33.02" y1="71.12" x2="33.02" y2="66.04" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<label x="45.72" y="66.04" size="1.778" layer="95" grouprefs="POWER_BOOST"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="PS1" gate="G$1" pin="L"/>
-<wire x1="73.66" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="FB" class="0">
 <segment>
 <pinref part="PS1" gate="G$1" pin="FB"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="78.74" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
-<junction x="116.84" y="78.74"/>
+<wire x1="101.6" y1="58.42" x2="101.6" y2="53.34" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<junction x="101.6" y="58.42" grouprefs="POWER_BOOST"/>
+<label x="93.98" y="58.42" size="1.778" layer="95" grouprefs="POWER_BOOST"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="PS1" gate="G$1" pin="VOUT"/>
-<wire x1="109.22" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="127" y1="91.44" x2="127" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<wire x1="111.76" y1="71.12" x2="111.76" y2="68.58" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="88.9" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
-<junction x="116.84" y="91.44"/>
+<wire x1="101.6" y1="68.58" x2="101.6" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
+<junction x="101.6" y="71.12" grouprefs="POWER_BOOST"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="116.84" y1="99.06" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="78.74" x2="101.6" y2="71.12" width="0.1524" layer="91" grouprefs="POWER_BOOST"/>
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="208.28" y1="114.3" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="78.74" x2="198.12" y2="68.58" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 <pinref part="IC1" gate="G$1" pin="V+"/>
-<wire x1="208.28" y1="104.14" x2="205.74" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="68.58" x2="195.58" y2="68.58" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="157.48" y1="121.92" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="86.36" x2="147.32" y2="81.28" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="A2"/>
+<wire x1="99.06" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="111.76" y1="160.02" x2="111.76" y2="162.56" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="53.34" y1="134.62" x2="53.34" y2="129.54" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="53.34" y1="129.54" x2="60.96" y2="129.54" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="U1" gate="U1" pin="VCC"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="30.48" y1="154.94" x2="25.4" y2="154.94" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<wire x1="25.4" y1="154.94" x2="25.4" y2="162.56" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="162.56" x2="25.4" y2="167.64" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<wire x1="35.56" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<junction x="25.4" y="162.56" grouprefs="AT-TINY_DNI"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="152.4" x2="25.4" y2="154.94" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<junction x="25.4" y="154.94" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="124.46" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="167.64" y1="88.9" x2="167.64" y2="68.58" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 <pinref part="IC1" gate="G$1" pin="+IN"/>
-<wire x1="177.8" y1="104.14" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="68.58" x2="170.18" y2="68.58" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="106.68" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="104.14" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
-<junction x="177.8" y="104.14"/>
-<junction x="157.48" y="104.14"/>
+<wire x1="147.32" y1="71.12" x2="147.32" y2="68.58" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="147.32" y1="68.58" x2="147.32" y2="66.04" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="167.64" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="167.64" y="68.58" grouprefs="OPAMP_BLINK"/>
+<junction x="147.32" y="68.58" grouprefs="OPAMP_BLINK"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="124.46" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
-<wire x1="213.36" y1="124.46" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="88.9" x2="203.2" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="203.2" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="88.9" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
-<junction x="213.36" y="99.06"/>
-<wire x1="213.36" y1="99.06" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A_R"/>
-<pinref part="LED1" gate="G$1" pin="A_G"/>
-<wire x1="223.52" y1="99.06" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="93.98" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
-<junction x="223.52" y="99.06"/>
-<pinref part="LED1" gate="G$1" pin="A_B"/>
-<wire x1="231.14" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="88.9" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
-<junction x="223.52" y="93.98"/>
+<wire x1="193.04" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="203.2" y1="53.34" x2="203.2" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="203.2" y="63.5" grouprefs="OPAMP_BLINK"/>
+<wire x1="203.2" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="213.36" y1="53.34" x2="213.36" y2="58.42" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="210.82" y1="81.28" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="81.28" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
-<junction x="213.36" y="88.9"/>
+<wire x1="213.36" y1="58.42" x2="213.36" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="200.66" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="203.2" y1="45.72" x2="203.2" y2="53.34" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="203.2" y="53.34" grouprefs="OPAMP_BLINK"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="213.36" y="63.5" grouprefs="OPAMP_BLINK"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="213.36" y="58.42" grouprefs="OPAMP_BLINK"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 <pinref part="IC1" gate="G$1" pin="-IN"/>
-<wire x1="177.8" y1="88.9" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="53.34" x2="167.64" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="167.64" y1="63.5" x2="170.18" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="78.74" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<junction x="177.8" y="88.9"/>
+<wire x1="167.64" y1="43.18" x2="167.64" y2="45.72" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="167.64" y="53.34" grouprefs="OPAMP_BLINK"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="81.28" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<junction x="177.8" y="81.28"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="K_B"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="88.9" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="K_G"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="K_R"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="99.06" x2="241.3" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="45.72" x2="167.64" y2="53.34" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="182.88" y1="45.72" x2="167.64" y2="45.72" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="167.64" y="45.72" grouprefs="OPAMP_BLINK"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="45.72" x2="193.04" y2="45.72" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+</segment>
+</net>
+<net name="LG" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A_G"/>
+<wire x1="233.68" y1="58.42" x2="236.22" y2="58.42" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<label x="241.3" y="58.42" size="1.778" layer="95" grouprefs="OPAMP_BLINK"/>
+<wire x1="236.22" y1="58.42" x2="243.84" y2="58.42" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="236.22" y1="58.42" x2="236.22" y2="86.36" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="236.22" y="58.42" grouprefs="OPAMP_BLINK"/>
+<wire x1="236.22" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="LR" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A_R"/>
+<wire x1="226.06" y1="63.5" x2="233.68" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<label x="241.3" y="63.5" size="1.778" layer="95" grouprefs="OPAMP_BLINK"/>
+<wire x1="233.68" y1="63.5" x2="243.84" y2="63.5" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="233.68" y1="63.5" x2="233.68" y2="78.74" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="233.68" y="63.5" grouprefs="OPAMP_BLINK"/>
+<wire x1="233.68" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="LB" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A_B"/>
+<wire x1="226.06" y1="53.34" x2="238.76" y2="53.34" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<label x="241.3" y="53.34" size="1.778" layer="95" grouprefs="OPAMP_BLINK"/>
+<wire x1="238.76" y1="53.34" x2="243.84" y2="53.34" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<wire x1="238.76" y1="53.34" x2="238.76" y2="93.98" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<junction x="238.76" y="53.34" grouprefs="OPAMP_BLINK"/>
+<wire x1="238.76" y1="93.98" x2="228.6" y2="93.98" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="A1"/>
+<wire x1="76.2" y1="160.02" x2="63.5" y2="160.02" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<label x="66.04" y="160.02" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+<pinref part="U1" gate="U1" pin="PB1"/>
+<wire x1="50.8" y1="144.78" x2="63.5" y2="144.78" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<wire x1="63.5" y1="144.78" x2="63.5" y2="160.02" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="A3"/>
+<wire x1="76.2" y1="157.48" x2="60.96" y2="157.48" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<label x="66.04" y="157.48" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+<pinref part="U1" gate="U1" pin="PB2"/>
+<wire x1="50.8" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<wire x1="60.96" y1="147.32" x2="60.96" y2="157.48" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+</segment>
+</net>
+<net name="RSTN" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="B2"/>
+<label x="66.04" y="154.94" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+<pinref part="U1" gate="U1" pin="PB5"/>
+<wire x1="50.8" y1="154.94" x2="53.34" y2="154.94" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<wire x1="53.34" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<wire x1="53.34" y1="154.94" x2="53.34" y2="162.56" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<junction x="53.34" y="154.94" grouprefs="AT-TINY_DNI"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="B1"/>
+<wire x1="99.06" y1="157.48" x2="116.84" y2="157.48" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<label x="104.14" y="157.48" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+<pinref part="U1" gate="U1" pin="PB0"/>
+<wire x1="50.8" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<wire x1="116.84" y1="142.24" x2="116.84" y2="157.48" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<label x="210.82" y="78.74" size="1.778" layer="95" grouprefs="OPAMP_BLINK"/>
+</segment>
+</net>
+<net name="PB4" class="0">
+<segment>
+<pinref part="U1" gate="U1" pin="PB4"/>
+<wire x1="50.8" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<label x="50.8" y="152.4" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="127" x2="15.24" y2="127" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<label x="15.24" y="127" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="86.36" x2="210.82" y2="86.36" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<label x="210.82" y="86.36" size="1.778" layer="95" grouprefs="OPAMP_BLINK"/>
+</segment>
+</net>
+<net name="PB3" class="0">
+<segment>
+<pinref part="U1" gate="U1" pin="PB3"/>
+<wire x1="50.8" y1="149.86" x2="55.88" y2="149.86" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<label x="50.8" y="149.86" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="124.46" x2="15.24" y2="124.46" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<label x="15.24" y="124.46" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="93.98" x2="210.82" y2="93.98" width="0.1524" layer="91" grouprefs="OPAMP_BLINK"/>
+<label x="210.82" y="93.98" size="1.778" layer="95" grouprefs="OPAMP_BLINK"/>
+</segment>
+</net>
+<net name="PB4C" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="60.96" y1="127" x2="45.72" y2="127" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
+<label x="48.26" y="127" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="PB3C" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<label x="48.26" y="124.46" size="1.778" layer="95" grouprefs="AT-TINY_DNI"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91" grouprefs="AT-TINY_DNI"/>
 </segment>
 </net>
 </nets>
@@ -9862,6 +10431,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
@@ -9876,6 +10449,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.5" severity="warning">
+Since Version 9.5, EAGLE supports persistent groups with
+schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
