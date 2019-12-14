@@ -6,9 +6,9 @@ Blinker esign is tested and works well.
 ATTINY variant was not verified.
 
 # Power supply
-Boost converter is used to create 3.3 V (designed for 200mA - handles about 30mA only now) with low Iq. (<20uA)
+Boost converter is used to create 3.3 V (handles about 30mA load) and has low Iq. (<20uA)
 
 # Two options
-Primary assembly option is an op-amp oscillator.
+Primary assembly option is an op-amp oscillator. Tested and working.
 
 Another option is to use ATTINY85 and program it to do the same job. (not elaborated in this repository yet)
