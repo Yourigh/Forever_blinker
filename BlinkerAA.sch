@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9852,6 +9852,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="170.18" y="99.06" size="1.778" layer="97" grouprefs="OPAMP_BLINK">LMV611 has Iq 200uA 
 
 MCP6241UT-E/LT has Iq 50uA - better</text>
+<text x="142.24" y="114.3" size="1.778" layer="97">R4 10M, R5:
+24k - 4.4ms pulse
+33k - 5ms
+44k - 7.6ms</text>
 </plain>
 <instances>
 <instance part="BT1" gate="G$1" x="22.86" y="40.64" smashed="yes" rot="R270" grouprefs="POWER_BOOST">
